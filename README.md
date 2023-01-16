@@ -1,1 +1,5 @@
 # Magic8Ball
+
+![preview1](Images/preview1.png)
+
+![preview2](Images/preview1.png)
