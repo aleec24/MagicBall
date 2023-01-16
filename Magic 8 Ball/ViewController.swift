@@ -4,13 +4,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    let ballArray = [UIImage(named: "ball1"),UIImage(named: "ball2"),UIImage(named: "ball3"),UIImage(named: "ball4"),UIImage(named: "ball5")]
+    let ballArray = [UIImage(named: "ball1"),UIImage(named: "ball2"),UIImage(named: "ball3"),UIImage(named: "ball4"),UIImage(named: "ball5"),UIImage(named: "ball6"),UIImage(named: "ball7")]
     
     @IBOutlet weak var imageView: UIImageView!
     
     @IBAction func askButtonPressed(_ sender: UIButton) {
         
-        imageView.image = ballArray[Int.random(in: 0...4)]
+        imageView.image = ballArray[Int.random(in: 0...6)]
         
     }
     
